@@ -1,0 +1,9 @@
+package dataTypes;
+
+public class DatosPrimitivos {
+
+	public static void main(String[] args) {
+		System.out.println("Jelou prueba");
+	}
+
+}

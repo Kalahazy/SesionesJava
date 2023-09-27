@@ -1,0 +1,41 @@
+package dataTypes;
+
+public class DatosPrimitivos {
+
+	public static void main(String[] args) {
+		/*
+		 * Datos primitivos.
+		 * Datos fundamentales en Java que sirven para gestionar los tipos de información más básicos
+		 * Existen 8 tipos de datos primitivos:
+		 *  - byte
+		 *  - short
+		 *  - int
+		 *  - long
+		 *  - float
+		 *  - double
+		 *  - boolean
+		 *  - char
+		 */
+		
+		//System.out.println();	//sysout -> Ctrl + Espc || syso -> Ctrl + Espc
+		
+		// Byte.ValorMin y Byte.ValorMAX
+		byte minByte = Byte.MIN_VALUE;	//tipoDeDatoByte.PropiedadEncontrarValorMínimo
+		byte maxByte = Byte.MAX_VALUE;	//tipoDeDatoByte.PropiedadEncontrarValorMáximo
+		System.out.println("El valor mínimo de byte es: " + minByte);
+		System.out.println("El valor máximo de byte es: " + maxByte);
+		
+		// short.ValorMin y short.ValorMAX
+		short minShort = Short.MIN_VALUE;
+		short maxShort = Short.MAX_VALUE;
+		System.out.println("El valor mínimo de short es: " + minShort);
+		System.out.println("El valor máximo de short es: " + maxShort);
+		
+		// int.ValorMin y int.ValorMAX
+		int minInt = Int.MIN_VALUE;
+		int maxInt = Int.MAX_VALUE;
+		System.out.println("El valor mínimo de short es: " + minInt);
+		System.out.println("El valor máximo de short es: " + maxInt);
+	}
+
+}
