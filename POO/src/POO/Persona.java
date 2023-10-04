@@ -33,10 +33,14 @@ public class Persona {
 	void saludar() {
 		System.out.println("Hola, te mando saluditos");
 	}//cierre saludar
+
 	
 	
-	//4 Instancia
-	
+	//toString
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", telefono=" + telefono + ", email=" + email + ", sexo=" + sexo + "]";
+	}
 	
 	
 }//Cierre POO
