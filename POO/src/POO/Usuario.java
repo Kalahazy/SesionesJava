@@ -24,13 +24,12 @@ public class Usuario {
 	//Si la nueva contraseña es diferente a una cadena vacía y es diferenet ea la contraseña anterior...
 	public void setPassword(String newPassword) {
 		//...entonces reemplazo la contraseña anterior
-		if( (newPassword != "") && (newPassword != password) ) {
+		if( (newPassword != "") && (!password.equals(newPassword)) ) {
 			password = newPassword;
 			System.out.println("Contraseña cambiada correctamente");
 		}else {
 			System.out.println("Lo siento, no puedo cambiar la contraseña");
 		}
 	}
-	
 
 } //Clase Usuario
