@@ -38,6 +38,8 @@ public class Test {
 		System.out.println(Masiosare);
 		
 		
+		
+		
 	}//Cierre método main
 
 }//Cierre class persona
