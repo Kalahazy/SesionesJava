@@ -15,10 +15,14 @@ public class TestFiguras {
 		//3. Instancia de un circulo
 		Figura circulo = new Circulo(3.14, 3.0);	//pi y radio
 		
+		//4. Instancia de un cuadrado
+		Figura cuadrado = new Cuadrado(5);	//lado
+		
 		
 		//Invocación del método
 		System.out.println( rectangulo.calcularArea() );
 		System.out.println( circulo.calcularArea() );
+		System.out.println( cuadrado.calcularArea() );
 		
 	}//Método main
 	
