@@ -24,6 +24,14 @@ public class TestFiguras {
 		System.out.println( circulo.calcularArea() );
 		System.out.println( cuadrado.calcularArea() );
 		
+		//Instancia de una esfera
+		Calculable esfera = new Esfera(15.0);
+		//Invocación de los métodos
+		System.out.println( esfera.calcularArea() );
+		System.out.println( esfera.calcularVolumen() );
+		System.out.println( esfera.calcularPerimetro() );
+		
+		
 	}//Método main
 	
 }//Class TestFiguras
