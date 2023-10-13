@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+G:\Mi unidad\Generation México - CH31\Ejercicios\Hard\SesionesJava\.metadata\.plugins\org.eclipse.jdt.core
-3971829705.index
-1865797976.index
